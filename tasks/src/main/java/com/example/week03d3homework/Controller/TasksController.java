@@ -80,7 +80,7 @@ public class TasksController {
             }
 
 
-            return (new ApiResponse("the task with ID: "+ id +" have been updated.", 200));
+            return (new ApiResponse("the task with ID: "+ id +" have been deleted.", 200));
         } catch(IndexOutOfBoundsException e1) {
             return (new ApiResponse("no task with that id.", 404));
         }
