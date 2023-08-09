@@ -1,15 +1,15 @@
 
 
 
-# Todo API
+# Tasks API
 
 ###  Show all tasks
 `GET /api/v1/tasks/get`
 
-### Search for todo by title
+### Search for task by title
 `GET /api/v1/tasks/search/{title}`
 
-### Save todo
+### Save task
 `POST /api/v1/tasks/save` <br />
 
 example of a body:
@@ -22,7 +22,7 @@ example of a body:
 }
 ```
 
-### Update todo
+### Update task
 `PUT /api/v1/tasks/{id}/update` <br />
 
 example of a body:
@@ -34,13 +34,13 @@ example of a body:
 }
 ```
 
-### mark todo as done or not.
-`PUT /api/v1/todos/{id}/toggle` <br />
+### mark task as done or not.
+`PUT /api/v1/tasks/{id}/toggle` <br />
 **NOTE: this endpoint does not need sending a body.**
 
 
-### delete todo
-`/api/v1/todos/{id}/delete`
+### delete task
+`/api/v1/tasks/{id}/delete`
 
 
 
