@@ -40,7 +40,7 @@ example of a body:
 
 
 ### delete task
-`/api/v1/tasks/{id}/delete`
+`DELETE /api/v1/tasks/{id}/delete`
 
 
 
